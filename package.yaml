@@ -6,4 +6,8 @@ artifact_format: zip
 description: "A blazing fast terminal file manager written in Rust, based on async I/O."
 license: MIT
 
-# Build for all Debian suites and all supported architectures.
+# yazi's upstream release binaries (both yazi and its companion ya) link
+# against a newer glibc than Debian bookworm ships (they require
+# GLIBC_2.39; bookworm provides 2.36), so they cannot run on bookworm.
+# Build for the newer suites only - same situation as atuin.
+debian_distributions: ["trixie", "forky", "sid"]
