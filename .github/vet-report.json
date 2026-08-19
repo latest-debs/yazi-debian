@@ -1,0 +1,47 @@
+{
+  "gate": "pass",
+  "license": {
+    "declared": "MIT",
+    "detected": [
+      "MIT"
+    ],
+    "license_files": [
+      "//tmp/tmp.Sa39zzUg0D/x/yazi-aarch64-unknown-linux-gnu/LICENSE"
+    ],
+    "matches": true,
+    "status": "pass",
+    "detail": "declared MIT matches detected MIT"
+  },
+  "asset": {
+    "format": "zip",
+    "size": 13725231,
+    "valid": true,
+    "is_html": false,
+    "binary": "yazi",
+    "elf_arch": "ARM aarch64",
+    "status": "pass",
+    "detail": "valid zip archive containing 2 ELF executable(s); first: yazi (ARM aarch64); release covers: amd64 arm64 i386 riscv64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64",
+      "i386",
+      "riscv64"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "ppc64el",
+      "s390x",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "yazi-x86_64-unknown-linux-gnu.zip",
+      "arm64": "yazi-aarch64-unknown-linux-gnu.zip",
+      "i386": "yazi-i686-unknown-linux-gnu.zip",
+      "riscv64": "yazi-riscv64gc-unknown-linux-gnu.zip"
+    }
+  },
+  "vetted_at": "2026-08-19T15:19:25Z"
+}

@@ -1,0 +1,9 @@
+# Package definition for yazi
+
+package_name: yazi
+github_repo: sxyazi/yazi
+artifact_format: zip
+description: "A blazing fast terminal file manager written in Rust, based on async I/O."
+license: MIT
+
+# Build for all Debian suites and all supported architectures.

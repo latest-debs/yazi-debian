@@ -1,0 +1,47 @@
+{
+  "package": "yazi",
+  "upstream_repo": "sxyazi/yazi",
+  "version": "v26.8.15",
+  "tag": "v26.8.15",
+  "published_at": "2026-08-15T08:15:56Z",
+  "license": "MIT",
+  "asset": "yazi-aarch64-unknown-linux-gnu.zip",
+  "asset_size": 13725231,
+  "sha256": "f5a85771f06bb0e8c488136ae0aedaec8d341a7cee995549df391d7d852fe8d1",
+  "expected_sha256": "",
+  "checksum_source": "",
+  "checksum_verified": false,
+  "assets": {
+    "yazi-aarch64-unknown-linux-musl.zip": {
+      "sha256": "dfaafadd3a80a18ccbd24c32be4888178202ea96f784a9b1021d526c908cab4b",
+      "size": 13760352
+    },
+    "yazi-aarch64-unknown-linux-gnu.zip": {
+      "sha256": "f5a85771f06bb0e8c488136ae0aedaec8d341a7cee995549df391d7d852fe8d1",
+      "size": 13725231
+    },
+    "yazi-i686-unknown-linux-gnu.zip": {
+      "sha256": "a63b299a38036b7d020730104eb2ee7ea39b2ce260a3abf2a69bc4f12d426e49",
+      "size": 14767268
+    },
+    "yazi-x86_64-unknown-linux-musl.zip": {
+      "sha256": "a6702034790afcdbb546b73b288c9b184a751fa3f2f17f0ad4d26fc302fb8d45",
+      "size": 14518860
+    },
+    "yazi-x86_64-unknown-linux-gnu.zip": {
+      "sha256": "cc67eb7991550c2f9407cda52d3f5af0937627aa6884e7de99a04fcf059807e0",
+      "size": 14205867
+    },
+    "yazi-riscv64gc-unknown-linux-gnu.zip": {
+      "sha256": "aa5a27c62b46393c20691c6cda00ea0c2f0b580fff89922986c64839d709c54b",
+      "size": 15239940
+    },
+    "yazi-sparc64-unknown-linux-gnu.zip": {
+      "sha256": "ac899b145365f9845c0ce6e631b7b7abf3f7abbf8c17d5f50f30bb56f7f90d33",
+      "size": 15391193
+    }
+  },
+  "asset_count": 7,
+  "vetted_at": "2026-08-19T15:19:24Z",
+  "vetted_by": ""
+}
